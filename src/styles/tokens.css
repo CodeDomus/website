@@ -1,0 +1,33 @@
+/* This file contains the design tokens for the theme. It includes colors, shadows, and other design elements. */
+@theme {
+  /* Base colors */
+  --color-imperial-red: #c42b36;
+  --color-legion-crimson: #9f212a;
+  --color-senate-slate: #2f3e4b;
+  --color-parchment-white: #f5f4f2;
+  --color-forum-beige: #e8e3d9;
+  --color-aureus-gold: #c9a14d;
+  --color-laurel-green: #2ea44f;
+  --color-amber-standard: #d97706;
+  --color-consular-scarlet: #b91c1c;
+
+  /* Semantic tokens */
+  --color-primary: var(--color-imperial-red);
+  --color-primary-hover: var(--color-legion-crimson);
+  --color-primary-on: var(--color-parchment-white);
+
+  --color-text-default: var(--color-senate-slate);
+  --color-text-on-dark: var(--color-parchment-white);
+
+  --color-background-body: var(--color-parchment-white);
+  --color-background-card: var(--color-forum-beige);
+  --color-background-dark: var(--color-senate-slate);
+
+  --color-accent: var(--color-aureus-gold);
+  --color-success: var(--color-laurel-green);
+  --color-warning: var(--color-amber-standard);
+  --color-error: var(--color-consular-scarlet);
+
+  /* Shadows */
+  --shadow-card: 0 2px 4px rgba(47, 62, 75, 0.07);
+}
